@@ -190,22 +190,22 @@ void sendMP3Command(char c) {
 
     case '2':
       Serial.println("Play folder 2");
-      sendCommand(CMD_FOLDER_CYCLE, 0x0201);
+      sendCommand(CMD_FOLDER_CYCLE, 0x0102);
       break;
 
     case '3':
       Serial.println("Play folder 3");
-      sendCommand(CMD_FOLDER_CYCLE, 0x0301);
+      sendCommand(CMD_FOLDER_CYCLE, 0x0103);
       break;
 
     case '4':
       Serial.println("Play folder 4");
-      sendCommand(CMD_FOLDER_CYCLE, 0x0401);
+      sendCommand(CMD_FOLDER_CYCLE, 0x0104);
       break;
 
     case '5':
       Serial.println("Play folder 5");
-      sendCommand(CMD_FOLDER_CYCLE, 0x0501);
+      sendCommand(CMD_FOLDER_CYCLE, 0x0105);
       break;
 
     case 'S':
