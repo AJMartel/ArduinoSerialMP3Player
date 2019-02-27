@@ -3,7 +3,7 @@ Playing MP3 files on a Serial MP3 Player board from Catalex (YX5300 chip)
 
 There appear to be multiple versions of this board, the byte that controls the folder play option is different between boards. This fork corresponds to the v1.0 documentation which uses the 6'th byte to specify the folder (which works on my board). Some boards apparently follow the 1.0.1 documentation which uses the 7'th byte (both docs are included in this repository for your reference)
 
-Buy the MP3 module on http://www.dx.com/p/uart-control-serial-mp3-music-player-module-for-arduino-avr-arm-pic-blue-silver-342439#.VfHyobPh5z0
+Buy the MP3 module on https://www.amazon.com/gp/product/B0725RHR4D/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
 
 
 Documentation and some Arduino code examples:
